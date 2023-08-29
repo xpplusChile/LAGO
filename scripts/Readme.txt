@@ -27,3 +27,11 @@ turnoff.sh: este scrip hace una secuencia de bajada para el alto voltaje entrega
 
 menu.sh : permite cambiar la configuracion que se hace cada vez que se prende la red pitaya de forma interactiva y por ende hay que reiniciar la
 red pitaya para que estos cambios sean efectivos
+
+Los siguientes scripts no han sido probados dentro de lago:
+
+sent_files_metadata.py:keeps the number and size of sent files. 
+
+check_if_send_data: check if there is internet to run the pitaya.py and the sent_files_metadata.py
+
+sendemail.py: sends an email weekly with the number and size of sent files for everyday of the week.
