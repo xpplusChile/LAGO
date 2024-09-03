@@ -4,7 +4,7 @@ Al ingresar "df -h" en la consola de la red pitaya se encuentra que la memoria e
 eliminados todos los datos tomados de la memoria usando nuvamente "df -h" la memoria ocupada es de 845M y se nos indica que la memoria disponible
 es de 2.7G a pesar de que con una calculadore podemos ver que la memoria disponible es de 2.87G
 
-Se hicieron varios scrips en bash para automatizar varios procesos de la red pitaya a traves de cron, estos son:
+Se hicieron varios scrips en bash para automatizar varios procesos de la red pitaya a traves de cron(configuracion en "/etc/crontab"), estos son:
 
 pitaya.py: este crip revisa la cantidad de archivos en la carpeta en la cual se guardan los datos adquiridos y si la cantidad es mayor a la estipulada 
 dentro del script (4 por defecto) todos los archivos exceptuando el ultimo (al que se le esta agregando datos actualmente) son enviados al servidor de 
